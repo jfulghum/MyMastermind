@@ -1,12 +1,19 @@
+h2 {
+  justify-content: center;
+}
+
 #ultimate-container{
   min-height: 500px;
   display: flex;
   justify-content: center;
+  background: tan;
 }
 
 #game-box{
-  max-width: 295px;
-  background-color: tan;
+  max-width: 280px;
+  background-image: url('/assets/wood-72380_1280.jpg');
+  border-radius: 25px;
+  margin: 20px;
 }
 
 #color-choice-list{
@@ -20,88 +27,90 @@
   float: left;
   margin: 50px 10px 50px 10px;
   border: 3px;
+
 }
 
 .empty{
-  border: 1px solid white;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   float: left;
-  margin: 10px;
-  background-color: white;
+  margin: 10px 15px 10px 15px;
+  background-color: tan;
+  box-shadow: inset 15px 15px 30px rgba(0,0,0,.1);
+  background-image: url('/assets/wood_background2.jpg');
 }
 
 .green {
-  border: 1px solid green;
  border-radius: 50%;
  width: 50px;
  height: 50px;
  float: left;
  margin: 10px;
  background-color: green;
+ box-shadow: inset -15px -15px 30px rgba(0,0,0,.1);
 }
 
 .blue {
-  border: 1px solid blue;
  border-radius: 50%;
  width: 50px;
  height: 50px;
  float: left;
  margin: 10px;
  background-color: blue;
+ box-shadow: inset -15px -15px 30px rgba(0,0,0,.1);
 }
 .red {
-  border: 1px solid red;
  border-radius: 50%;
  width: 50px;
  height: 50px;
  float: left;
  margin: 10px;
  background-color: red;
+ box-shadow: inset -15px -15px 30px rgba(0,0,0,.1);
 }
 .purple {
-  border: 1px solid purple;
  border-radius: 50%;
  width: 50px;
  height: 50px;
  float: left;
  margin: 10px;
  background-color: purple;
+ box-shadow: inset -15px -15px 30px rgba(0,0,0,.3);
 }
 .orange {
-  border: 1px solid orange;
  border-radius: 50%;
  width: 50px;
  height: 50px;
  float: left;
  margin: 10px;
  background-color: orange;
+ box-shadow: inset -15px -15px 30px rgba(0,0,0,.3);
 }
 .yellow {
-  border: 1px solid yellow;
  border-radius: 50%;
  width: 50px;
  height: 50px;
  float: left;
  margin: 10px;
  background-color: yellow;
+ box-shadow: inset -15px -15px 30px rgba(0,0,0,.3);
 }
 .black {
-  border: 1px solid black;
  border-radius: 50%;
  width: 50px;
  height: 50px;
  float: left;
  margin: 10px;
- background-color: black;
+ background-color: grey;
+ box-shadow: inset -25px -25px 30px rgba(0,0,0,.3);
 }
 .turquoise {
-  border: 1px solid turquoise;
  border-radius: 50%;
  width: 50px;
  height: 50px;
  float: left;
  margin: 10px;
  background-color: turquoise;
+ box-shadow: inset -15px -15px 30px rgba(0,0,0,.3);
 }

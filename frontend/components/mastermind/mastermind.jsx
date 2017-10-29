@@ -10,9 +10,10 @@ class Mastermind extends React.Component {
   render() {
     return(
       <div id="ultimate-container">
-        <h2>Welcome to Mastermind</h2>
         <div id="game-box">
+
           <div id="color-choice-list">
+            <h2>Welcome to Mastermind</h2>
             <ul id="color-list">
               <li className="color blue"></li>
               <li className="color red"></li>
